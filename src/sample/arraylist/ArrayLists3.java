@@ -15,12 +15,10 @@ public class ArrayLists3 {
 		
 		for(String food : foods) {
 			System.out.println(food);
+
 		}
+
 		
-		foods.forEach(food -> 
-			food.replace("Chapathi", "Parota")
-				);
-		System.out.println(foods.get(2));
 	}
 	
 }
