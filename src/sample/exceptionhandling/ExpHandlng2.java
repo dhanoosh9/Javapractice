@@ -1,5 +1,6 @@
 package sample.exceptionhandling;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class ExpHandlng2 {
@@ -20,7 +21,7 @@ public class ExpHandlng2 {
 			System.out.println("The addition of given two numbers is: " + a + b);
 			
 		}
-		catch(Exception e) {
+		catch(InputMismatchException | IllegalAccessError e) {
 			System.out.println("Please enter integer values only");
 		}
 		

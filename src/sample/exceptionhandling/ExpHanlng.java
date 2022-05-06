@@ -1,5 +1,6 @@
 package sample.exceptionhandling;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class ExpHanlng {
@@ -18,7 +19,7 @@ public class ExpHanlng {
 				System.out.println("The given number is odd");
 			}
 			
-		} catch(Exception e) {
+		} catch(InputMismatchException | InstantiationError e) {
 			//System.out.println(e.getCause());
 			System.out.println("Please enter a integer value");
 			
