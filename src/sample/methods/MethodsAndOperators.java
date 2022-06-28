@@ -10,6 +10,7 @@ public class MethodsAndOperators {
 		MethodsAndOperators obj = new MethodsAndOperators();
 		System.out.println(obj.multiply(5, 6));
 		System.out.println(obj.subtract(6, 5));
+		System.out.println();
 		System.out.println(obj.division(10,5));
 		System.out.println(obj.division(5,10));
 		

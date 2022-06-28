@@ -3,7 +3,7 @@ package sample.switchcase;
 public class Switch2 {
 
 	public static void main(String[] args) {    
-		char ch='b';    
+		char ch='a';    
 		switch(ch)  
 		{  
 		case 'a':   

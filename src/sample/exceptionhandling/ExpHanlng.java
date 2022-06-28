@@ -12,7 +12,6 @@ public class ExpHanlng {
 			
 			System.out.println("Enter a number: ");
 			int a = scanner.nextInt();
-			
 			if(a % 2 == 0) {
 				System.out.println("The given number is even");
 			} else {
